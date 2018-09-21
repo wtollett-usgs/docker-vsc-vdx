@@ -4,7 +4,7 @@ Dockerfile used by hub.docker.com to create a container for the [vsc-vdx](https:
 
 ## Usage
 ---
-Java options can be passed via a JAVA_OPTS environment variable. Additionally, the following volumens must be passed in when starting the container:
+Java options can be passed via a JAVA_OPTS environment variable. The following volumes must be passed in when starting the container:
 1. /opt/vdx/VDX.config
 2. /opt/vdx/vdxSources.config
 
